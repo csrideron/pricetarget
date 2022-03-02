@@ -5,8 +5,8 @@ That means every trade starts at a loss. As such, I like to know my break even p
 
 These are by no means complex calculations, but I got tired of doing them for every trade. So I wrote some code that, when given the price of the coin, outputs the following: 
 
-1. Floor: My general trading strategy is to start with a stop-loss below the entry price. Then, I raise the limit as the price increases. Once the price decreases a certain amount, the position is closed. I usually start at 95% of the entry price, that way my loss isn't substantial if the price drops.
-2. Breakeven price: This is the entry price multiplied by the percent increase needed to recover the principal.
+1. Floor:  My general trading strategy is to start with a stop-loss below the entry price. Then, I raise the limit as the price increases. Once the price decreases a certain amount, the position is closed. I usually start at 95% of the entry price, that way my loss isn't substantial if the price drops.
+2. Breakeven price:  This is the entry price multiplied by the percent increase needed to recover the principal.
 3. 5%:  Breakeven price * 1.05%.
 4. 10%:  Breakeven price * 1.10%. 
 
