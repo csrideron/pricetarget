@@ -1,6 +1,6 @@
 This project was interesting becasue it required both writing functional code, and ensuring that the widget performed a task accurately.
 
-Coinbase Pro charges a small (depending on who you ask) fee per trade, both at both at entry and exit. 
+Coinbase Pro charges a small (depending on who you ask) fee per trade, both at entry and exit. 
 That means that every trade starts at a loss. As such, I like to know what price I need to break even. I also like to get a sense of what the price will be after certain percent increases, to temper expectations.
 
 These are by no means complex calculations, but I got tired of doing them for every trade. So I wrote some code that, when given the price of the coin, outputs the following: 
