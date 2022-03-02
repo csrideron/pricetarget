@@ -13,7 +13,7 @@ These are by no means complex calculations, but I got tired of doing them for ev
 Computing the multiplication factor for the breakeven price took longer than I'd like to admit. 
 Again - this project was interesting because I had to ensure a correct output, in addition to ensuring functional code.
 
-Overall, nothing very fancy here, but it has saved quite a bit of time with trading. 
+Overall, nothing very fancy here, but it's saved quite a bit of time with trading. 
 My hope, as with any project, is to get this down to as few lines of code as possible. I'm obsesseively minimalist. Long-term, it'd also be nice to turn this into an API that automates my trading, given how algorithmic my process is.
 
 
