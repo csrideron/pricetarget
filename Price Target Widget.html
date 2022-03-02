@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel = "shortcut icon" type = "image/jpg" href = "wsb.jpg";/>
+
+    <title> Price Targets </title>
+
+
+    <style>  
+    
+    html {background-color:rgb(37, 37, 37); font-family: 'Lato Light'; color:aqua; height: 100%; font-size: 2rem;} 
+    body {height: 100%; margin-top: 5%;}
+    #spotpricefield {background-color:black; border:1px solid aqua; width: 75%; height: 75%; position: relative; left: 12.5%; right: 12.5%;}
+    #spotprice {font: inherit; color: inherit; border: 1px solid aqua; background-color: rgb(54, 54, 54); text-align:center;}
+    
+    </style>
+
+</head>
+
+<body align = "center">
+
+<div id = spotpricefield> 
+
+    <h3 style = "font-family:inherit;"> Entry Price </h3> 
+    <input id = "spotprice" oninput="myFunction();">
+    <p id = floor> Floor:  $0 </p>
+    <p id = breakeven> Breakeven:  $0 </p>
+    <p id = fivepercent> 5% Gain:  $0 </p>
+    <p id = tenpercent> 10% Gain:  $0 </p>
+
+</div>
+
+</body>
+
+<script>
+
+function myFunction()
+{
+    var spotprice = document.getElementById("spotprice");
+    var breakevenvalue = (spotprice.value * 1.01210887595);
+    var decimalprecision = spotprice.value.length;
+
+    document.getElementById("floor").innerHTML = "Floor:  $" + (breakevenvalue * 0.95).toFixed(decimalprecision);
+    
+    document.getElementById("breakeven").innerHTML = "Breakeven:  $" + (breakevenvalue).toFixed(decimalprecision);
+
+    document.getElementById("fivepercent").innerHTML = "5% Gain:  $" + (breakevenvalue * 1.05).toFixed(decimalprecision);
+
+    document.getElementById("tenpercent").innerHTML = "10% Gain:  $" + (breakevenvalue * 1.1).toFixed(decimalprecision);
+}
+
+</script>
+
+</html>
