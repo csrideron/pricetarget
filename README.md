@@ -1,6 +1,6 @@
 This project was interesting becasue it required a both writing functional code, and ensuring that the code performed a task accurately.
 
-Coinbase Pro charges a small (depending on who you ask) fee per trade. For me, it's 0.6 percent. The fee is charged both at both at entry and exit. 
+Coinbase Pro charges a small (depending on who you ask) fee per trade. For me, it's 0.6%. The fee is charged both at both at entry and exit. 
 That means that every trade starts at a loss. As such, I like to know what price increase I need to break even. I also like to know what it's value will be after a certain percent increase. 
 
 These are by no means complex calculations, but I got tired of doing them for every trade. So I wrote some code that, when given the price of the coin, outputs the following: 
