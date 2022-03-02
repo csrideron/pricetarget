@@ -14,4 +14,4 @@ Determining the multiplication factor for the breakeven price took me longer to 
 Again - this project was interesting because I had to ensure a precise output, in addition to ensuring functional code.
 
 Overall, nothing very fancy here, but it has saved quite a bit of time with trading. 
-My hope, as with any project, is to get this down to as few lines of code as possible. I'm obsesseively minimalist. 
+My hope, as with any project, is to get this down to as few lines of code as possible. I'm obsesseively minimalist. Long-term, it'd also be nice to turn this into an API that automates my trading, given how algorithmic my process is.
