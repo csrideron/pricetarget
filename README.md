@@ -7,8 +7,8 @@ These are by no means complex calculations, but I got tired of doing them for ev
 
 1. Floor:  My general trading strategy is to start with a stop-loss below the entry price. Then, I raise the limit as the price increases. Once the price decreases a certain amount, the position is closed. I set the floor at ~ 95% of the entry price, that way my loss isn't substantial if the price drops.
 2. Breakeven price:  Entry price multiplied by the percent increase needed to recover the principal.
-3. 5%:  Breakeven price * 1.05%.
-4. 10%:  Breakeven price * 1.10%. 
+3. 5%:  Breakeven price * 1.05.
+4. 10%:  Breakeven price * 1.1. 
 
 Determining the multiplication factor for the breakeven price took me longer to figure out than I'd like to admit. 
 Again - this project was interesting because I had to ensure a precise output, in addition to ensuring functional code.
