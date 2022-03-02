@@ -1,4 +1,4 @@
-This project was interesting becasue it required a both writing functional code, and ensuring that the widget performed a task accurately.
+This project was interesting becasue it required both writing functional code, and ensuring that the widget performed a task accurately.
 
 Coinbase Pro charges a small (depending on who you ask) fee per trade, both at both at entry and exit. 
 That means that every trade starts at a loss. As such, I like to know what price I need to break even. I also like to get a sense of what the prise will be after certain percent increases, to temper expectations.
